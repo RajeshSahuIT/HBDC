@@ -2638,14 +2638,14 @@ nav#desktop-nav li.has-child-menu:hover ul.thired-level{
     clear:both;
     display:block
 }
-.mean-container .mean-nav ul li a{
-    color:#212121;
-    font-weight:700;
-    -webkit-transition:all .5s ease-out;
-    -moz-transition:all .5s ease-out;
-    -ms-transition:all .5s ease-out;
-    -o-transition:all .5s ease-out;
-    transition:all .5s ease-out
+.mean-container .mean-nav ul li a {
+    color: #ffffff;
+    font-weight: 700;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -ms-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;
 }
 .media-post .post-thumb {
     float: left;
@@ -10219,4 +10219,13 @@ ul.course-feature2 li:before{
 @media(max-width:767px)
 {
 	.new-bswt-slider{height:450px}
+	.logo-mobile-menu img{    width: 147px;}
+	.mean-container .mean-nav ul li a {
+    color: #ffffff;
+    
+}
+.mean-container .mean-nav ul li li a {
+    color: #ffffff;
+    opacity: 1;
+}
 }
