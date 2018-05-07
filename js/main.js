@@ -122,7 +122,7 @@
         $(document).on('click', '#search-button', function(e) {
             e.preventDefault();
 
-            var targrt = $(this).prev('.search-form');
+            var targrt = $(this).prev('.bh-from');
             targrt.animate({
                 width: ["toggle", "swing"],
                 height: ["toggle", "swing"],

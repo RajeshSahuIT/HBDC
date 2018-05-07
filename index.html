@@ -64,6 +64,7 @@
     
     <div id="preloader"></div>
     <!-- Preloader End Here -->
+	
     <!-- Main Body Area Start Here -->
     <div id="wrapper">
         <!-- Header Area Start Here -->
@@ -84,10 +85,24 @@
 										
 										<li>
 										<div class="header-search">
-                                    <form>
-                                        <input type="text" class="search-form" placeholder="Search...." required="" style="display:none;">
-                                        <a href="#" class="search-button" id="search-button"><i class="fa fa-search" aria-hidden="true"></i></a>
-                                    </form>
+                                  
+									 
+                				
+				<div class="bh-from modal fade" role="dialog"  >
+				<div class="modal-dialog1">
+				  <button type="button" onClick="closesearch();" class="close" data-dismiss="bh-from">&times;</button>
+	  <form>
+	
+	 <input type="text" class="search-form" placeholder="Search...." required="" >
+	 <a href="#"  class="search-fff"><i class="fa fa-search" aria-hidden="true"></i></a>
+                                    
+                </form>
+	</div>
+	
+	</div>
+										
+										<a href="#"  class="search-button" id="search-button"><i class="fa fa-search" aria-hidden="true"></i></a>
+                                    
                                 </div>
 										</li>
 										
@@ -97,6 +112,12 @@
                         </div>
                     </div>
                 </div>
+				
+				
+				
+				
+				
+
                 <div class="main-menu-area bg-textPrimary" id="sticker">
                     <div class="container">
                         <div class="row">
@@ -264,7 +285,9 @@
             <!-- Mobile Menu Area End -->
         </header>
         <!-- Header Area End Here -->
-        <!-- Slider 1 Area Start Here -->
+        
+		
+		<!-- Slider 1 Area Start Here -->
         <div id="slider" class="new-bswt-slider" >
       <ul>
 			<li><a href="#"><img src="images/slder11.jpg"/></a>
@@ -897,6 +920,12 @@ $('#slider').vmcSlide({
 
                 }
             });
+</script>
+<script>
+function closesearch() {
+    $(".bh-from").css("display", "none");
+}
+ 
 </script>
 </body>
 </body>
