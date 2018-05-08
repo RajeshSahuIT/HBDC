@@ -10427,6 +10427,16 @@ color: #002147;
 }
 .new-bswt-slider{height:550px}
 
+
+.bbhhj{list-style: circle;
+    margin-left: 29px;}
+
+
+.nhhhu {
+    font-size: 18px !important;
+    margin: 14px 0 33px !important;
+}
+
 @media(max-width:767px)
 {
 	.new-bswt-slider{height:450px}
