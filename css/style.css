@@ -2372,13 +2372,13 @@ nav#desktop-nav li.has-child-menu:hover ul.thired-level{
 .header2-area nav#desktop-nav>ul .active>a{
     color:#ee082c;    border-bottom: 2px solid;
 }
-.header2-area .stick{
-    background:rgba(255,255,255,0.9);
-    -webkit-transition:all 1s ease-out;
-    -moz-transition:all 1s ease-out;
-    -ms-transition:all 1s ease-out;
-    -o-transition:all 1s ease-out;
-    transition:all 1s ease-out
+.header2-area .stick {
+    background: #fff;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
 }
 .header3-area{
     position:fixed;
