@@ -6606,16 +6606,16 @@ ul.course-feature2 li:before{
         margin-bottom:30px
     }
 }
-.event-inner-area .event-wrapper>li{
-    margin-bottom:30px;
-    padding:20px;
-    background:#fff;
-    display:-webkit-box;
-    display:-webkit-flex;
-    display:-moz-flex;
-    display:-ms-flex;
-    display:-o-flex;
-    display:flex
+.event-inner-area .event-wrapper>li {
+    margin-bottom: 1px;
+    padding: 15px;
+    background: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
 }
 @media only screen and (max-width:1199px){
     .event-inner-area .event-wrapper>li{
@@ -9842,14 +9842,28 @@ ul.course-feature2 li:before{
 .goo-pl{ background:#e0483a;}
 
 
+.footer-social li a:hover {
+    /* border: 1px solid #ee082c; */
+    /* background: #ee082c; */
+    color: #fff !important;
+	    -ms-transform: scale(1.3, 1.3);
+    -webkit-transform: scale(1.3, 1.3);
 
-  .footer-social li a:hover{
-    border:1px solid #ee082c;
-    background:#ee082c
+	transform: scale(1.3, 1.3);
 }
+  .footer-social li a  i{
+ -webkit-transition:all .3s ease-out;
+    -moz-transition:all .3s ease-out;
+    -ms-transition:all .3s ease-out;
+    -o-transition:all .3s ease-out;
+    transition:all .3s ease-out
+  }
   .footer-social li a:hover i{
-    color:#002147
+    color: #fff !important;
+	 
 }
+
+
   .footer-social li:last-child{
     margin-right:0
 }
@@ -9948,7 +9962,32 @@ color: #002147;
     font-size: 17px;
     padding: 8px 20px 8px;
     background: none;
+	 -webkit-transition:all .3s ease-out;
+    -moz-transition:all .3s ease-out;
+    -ms-transition:all .3s ease-out;
+    -o-transition:all .3s ease-out;
+    transition:all .3s ease-out
 }
+
+.jump:hover { -webkit-transition:all .3s ease-out;
+    -moz-transition:all .3s ease-out;
+    -ms-transition:all .3s ease-out;
+    -o-transition:all .3s ease-out;
+    transition:all .3s ease-out
+    border-color: #e21c2a;
+    color: #e21c2a;
+    font-size: 17px;
+    padding: 8px 20px 8px;
+    background: none;
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
 .joinco i, .joinco span {
     color: #00964f;
     font-size: 30px!important;
