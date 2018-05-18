@@ -10543,4 +10543,34 @@ color: #002147;
     color: #ffffff;
     opacity: 1;
 }
+.course-detai .course-details-tab-area .tab-content {
+    padding: 35px 6px 15px 6px;
+    
+    text-align: left;
+}
+.course-details-inner .course-details-tab-area .course-details-skilled-lecturers ul li .skilled-lecturers-content {
+    
+    text-align: left;
+}
+.course-details-inner .course-details-tab-area .course-details-skilled-lecturers ul li .skilled-lecturers-schedule ul li h4 {
+     
+    text-align: left;
+}
+.course-details-inner .course-details-tab-area ul.course-details-tab-btn>li {
+    display: inline-block !important;
+    /* padding: 0; */
+}
+.course-detai .course-details-tab-area ul.course-details-tab-btn>li a {
+    display: block;
+    color: #002147;
+    padding: 14px 10px;
+    text-transform: capitalize;
+    font-weight: 500;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -ms-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+    font-size: 12px;
+}
 }
