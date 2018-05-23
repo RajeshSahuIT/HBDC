@@ -938,10 +938,11 @@ h2.sidebar-title:before{
     color:#fff;
     padding:12px 34px;
     background:#002147;
+	    border: 2px solid #002147;
     text-transform:uppercase;
     font-size:14px;
     display:inline-block;
-    border:0;
+  
     font-weight:500;
     -webkit-transition:all .5s ease-out;
     -moz-transition:all .5s ease-out;
@@ -953,8 +954,9 @@ h2.sidebar-title:before{
     color:#fff
 }
 .view-all-accent-btn:hover{
-    background:#ee082c;
-    color:#212121
+       background: #fff;
+    color: #ee082c;
+    border: 2px solid #ee082c;
 }
 .details-accent-btn{
     text-align:center;
@@ -963,7 +965,7 @@ h2.sidebar-title:before{
     text-transform:uppercase;
     font-size:14px;
     display:inline-block;
-    border:0;
+   
     font-weight:500;
     border:2px solid #ee082c;
     -webkit-transition:all .5s ease-out;
@@ -979,12 +981,13 @@ h2.sidebar-title:before{
 .view-all-primary-btn{
     text-align:center;
     color:#fff;
-    padding:12px 0;
-    background:#002147;
+    padding:10px 0;
+    background:#002147;  
+	border: 2px solid #002147;
     text-transform:uppercase;
     font-size:14px;
     display:inline-block;
-    border:0;
+  
     width:130px;
     -webkit-transition:all .5s ease-out;
     -moz-transition:all .5s ease-out;
@@ -993,8 +996,9 @@ h2.sidebar-title:before{
     transition:all .5s ease-out
 }
 .view-all-primary-btn:hover{
-    background:#ee082c;
-    color:#030507
+    background: #fff;
+    color: #ee082c;
+    border: 2px solid #ee082c;
 }
 .ghost-btn{
     border:2px solid #fff;
@@ -1032,8 +1036,9 @@ h2.sidebar-title:before{
 }
 .featured-img-holder img{}
 .ghost-btn-big:hover {
-    background: #ee082c;
-    color: #ffffff;
+   background: #2e3e89;
+    color: #fff;
+    border: 2px solid #fff;
 }
 .ghost-btn-big-primary{
     border:2px solid #002147;
@@ -3310,8 +3315,13 @@ nav#desktop-nav li.has-child-menu:hover ul.thired-level{
     transition:all .5s ease-out
 }
 .service-box2{
-    text-align:center
+       text-align: center;
+    padding: 15px 15px;
+    border: 1px solid #2e3e89;
+    min-height: 268px;
+    max-height: 268px;
 }
+
 @media only screen and (max-width:767px){
     .service-box2{
         margin-bottom:30px
@@ -3339,7 +3349,7 @@ nav#desktop-nav li.has-child-menu:hover ul.thired-level{
     font-size: 36px;
 }
 .service-box2 h3{
-    font-size:22px;
+    font-size:17px;
     margin-bottom:15px;
     font-weight:500
 }
@@ -3355,7 +3365,7 @@ nav#desktop-nav li.has-child-menu:hover ul.thired-level{
     color:#ee082c
 }
 .service-box2 p{
-    width:80%;
+    width:100%;
     margin:0 auto
 }
 @media only screen and (max-width:991px){
@@ -7300,7 +7310,7 @@ ul.course-feature2 li:before{
 .gallery-box:before{
     opacity:0;
     content:"";
-    background-color:rgba(253,200,0,0.7);
+    background-color:rgba(237, 8, 44, 0.64);
     position:absolute;
     top:0;
     left:0;
@@ -9979,7 +9989,9 @@ color: #002147;
     -moz-transition:all .3s ease-out;
     -ms-transition:all .3s ease-out;
     -o-transition:all .3s ease-out;
-    transition:all .3s ease-out
+    transition:all .3s ease-out;
+	    top: 11px;
+    position: relative;
 }
 
 .jump:hover { -webkit-transition:all .3s ease-out;
@@ -10016,6 +10028,7 @@ color: #002147;
 .footer-area-bottom p {
     color: #999;
     margin: 0;
+	padding-top: 8px;
 }
 @media only screen and (max-width:767px){
     .footer-area-bottom p{
@@ -10184,15 +10197,12 @@ color: #002147;
     background: #f5f5f5;
 }
 
-
-
-
 .course-detai .course-details-tab-area ul.course-details-tab-btn {
     background: #ffffff;
     display: inline-block;
 }
 .course-detai .course-details-tab-area .tab-content {
-    padding: 35px 61px 15px 61px;
+    padding: 35px 31px 15px 31px;
     margin-top: 0;
     border: 1px solid #00000021;
     background: #fff;
@@ -10574,3 +10584,8 @@ color: #002147;
     font-size: 12px;
 }
 }
+.service-box2:hover{border: 2px solid #2e3e89;
+ }
+ .wrap-login400 {
+ width: 470px !important;}
+  
